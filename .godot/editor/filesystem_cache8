@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1706622524
+icon.svg::CompressedTexture2D::230052549134890309::1706603009::1706622488::1::::<><>::
+UI.tscn::PackedScene::8484004540947550750::1706622259::0::1::::<><>::res://OtherScripts/ScoreCounter.gd
+::res://Assets/::1706622488
+Grass1.png::CompressedTexture2D::8694852347275241841::1706606352::1706622488::1::::<><>::
+::res://Charachter/::1706622259
+Lawnmower.tscn::PackedScene::4780537788340712238::1706622259::0::1::::<><>::uid://djo6xilv313v::::res://icon.svg<>res://Charachter/Movement.gd<>res://Charachter/Mowing.gd<>res://Charachter/Upgrades.gd
+Movement.gd::GDScript::-1::1706615786::0::1::::<>Node<>::
+Mowing.gd::GDScript::-1::1706621220::0::1::::<>Node<>::
+Upgrades.gd::GDScript::-1::1706622012::0::1::::<>Node<>::
+::res://levels/::1706622489
+level_1.tscn::PackedScene::7058892153610645839::1706622489::0::1::::<><>::uid://cady02k6xo15k::::res://Charachter/Lawnmower.tscn<>uid://dv437hxly75vp::::res://Assets/Grass1.png<>uid://ds4ykypanqn71::::res://UI.tscn
+::res://OtherScripts/::1706621261
+GameManager.gd::GDScript::-1::1706621261::0::1::::<>Node<>::
+ScoreCounter.gd::GDScript::-1::1706621125::0::1::::<>Label<>::
