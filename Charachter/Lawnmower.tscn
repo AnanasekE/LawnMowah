@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://cady02k6xo15k"]
 
-[ext_resource type="Texture2D" uid="uid://djo6xilv313v" path="res://icon.svg" id="1_74r5m"]
+[ext_resource type="Texture2D" uid="uid://di1cn2b3bds3e" path="res://Assets/mower.png" id="1_b0jsx"]
 [ext_resource type="Script" path="res://Charachter/Movement.gd" id="2_navip"]
 [ext_resource type="Script" path="res://Charachter/Mowing.gd" id="3_mpfkp"]
 [ext_resource type="Script" path="res://Charachter/Upgrades.gd" id="4_nwj7v"]
@@ -19,8 +19,8 @@ collision_mask = 0
 shape = SubResource("RectangleShape2D_me8xr")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.328125, 0.328125)
-texture = ExtResource("1_74r5m")
+scale = Vector2(0.093617, 0.093617)
+texture = ExtResource("1_b0jsx")
 
 [node name="Movement" type="Node" parent="." node_paths=PackedStringArray("mower")]
 script = ExtResource("2_navip")
