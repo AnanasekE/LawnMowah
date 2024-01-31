@@ -1,8 +1,15 @@
+CanvasLayer
 ColorRect
+TileMap
+Node
+Timer
+Button
+Label
+RichTextLabel
+Control
+TextureRect
 HBoxContainer
 Container
 PanelContainer
-TextureRect
 Sprite2D
 BoxContainer
-Button

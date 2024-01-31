@@ -4,7 +4,7 @@ extends Label
 
 
 func _ready():
-	gm.add_point.connect(update_score)
+	gm.update_points.connect(update_score)
 
 func update_score():
 	text = "Score: " + str(gm.points)

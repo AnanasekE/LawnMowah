@@ -2,3 +2,10 @@ res://levels/level_1.tscn
 res://Charachter/Upgrades.gd
 res://Charachter/Lawnmower.tscn
 res://Scenes/UI.tscn
+res://OtherScripts/GameManager.gd
+res://Charachter/Mowing.gd
+res://OtherScripts/ScoreCounter.gd
+res://OtherScripts/TilemapChecker.gd
+res://OtherScripts/MapManager.gd
+res://LevelTilemapPatterns/green_tilemap.tres
+res://OtherScripts/Signals.gd

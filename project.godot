@@ -18,6 +18,12 @@ config/icon="res://Assets/mower.png"
 [autoload]
 
 GameManager="*res://OtherScripts/GameManager.gd"
+Signals="*res://OtherScripts/Signals.gd"
+
+[display]
+
+window/size/mode=3
+window/stretch/mode="viewport"
 
 [input]
 
