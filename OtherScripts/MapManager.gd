@@ -4,7 +4,6 @@ extends Node
 # 46207
 var pattern:TileMapPattern
 @onready var tilemap: TileMap = $"../GrassMap"
-@onready var gm:GameManager = $/root/GameManager
 var all_cells_coords:Array[Vector2i]
 
 func _ready():
@@ -13,8 +12,9 @@ func _ready():
 		for j in range(0,161):
 			all_cells_coords.append(Vector2i(i,j))
 	
-	gm.reset_map.connect(fill_map)
+	GameManager.reset_map.connect(fill_map)
 	pattern = tilemap.get_pattern(0,all_cells_coords)
+
 
 func fill_map():
 	tilemap.set_pattern(0,Vector2(0,0),pattern)
