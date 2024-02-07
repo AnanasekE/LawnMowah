@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://ds4ykypanqn71"]
+[gd_scene load_steps=4 format=3 uid="uid://ds4ykypanqn71"]
 
 [ext_resource type="Script" path="res://OtherScripts/ScoreCounter.gd" id="1_6k3m5"]
+[ext_resource type="Script" path="res://Scenes/CardPicker.gd" id="2_cevko"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_o12ky"]
 font_size = 40
@@ -18,7 +19,7 @@ text = "Score: 6442"
 script = ExtResource("1_6k3m5")
 
 [node name="CardBox" type="Control" parent="."]
-visible = false
+unique_name_in_owner = true
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -40,6 +41,16 @@ offset_bottom = 157.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="Name" type="Label" parent="CardBox/Card1"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Blablublu"
+label_settings = SubResource("LabelSettings_o12ky")
+horizontal_alignment = 1
+
 [node name="Buff" type="Label" parent="CardBox/Card1"]
 layout_mode = 1
 anchors_preset = 10
@@ -49,6 +60,26 @@ grow_horizontal = 2
 text = "Blablublu"
 label_settings = SubResource("LabelSettings_o12ky")
 horizontal_alignment = 1
+
+[node name="Nerf" type="Label" parent="CardBox/Card1"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Blablublu"
+label_settings = SubResource("LabelSettings_o12ky")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="CardBox/Card1"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_cevko")
 
 [node name="Card2" type="ColorRect" parent="CardBox"]
 layout_mode = 1
@@ -77,3 +108,5 @@ offset_right = 287.0
 offset_bottom = 114.5
 grow_horizontal = 2
 grow_vertical = 2
+
+[connection signal="pressed" from="CardBox/Card1/Button" to="CardBox/Card1/Button" method="_on_pressed"]

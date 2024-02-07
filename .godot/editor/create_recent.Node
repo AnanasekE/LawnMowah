@@ -1,9 +1,9 @@
+Button
 CanvasLayer
 ColorRect
 TileMap
 Node
 Timer
-Button
 Label
 RichTextLabel
 Control
@@ -12,4 +12,3 @@ HBoxContainer
 Container
 PanelContainer
 Sprite2D
-BoxContainer

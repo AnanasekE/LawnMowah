@@ -1,8 +1,7 @@
 res://Scenes/UI.tscn
 res://levels/GrassTileSet.tres
-res://OtherScripts/PlayerStats.gd
-res://OtherScripts/Signals.gd
 res://levels/level_1.tscn
-res://OtherScripts/MapManager.gd
 res://Charachter/Lawnmower.tscn
-res://OtherScripts/GameManager.gd
+res://Cards/Buffs.gd
+res://Cards/Card.gd
+res://Scenes/CardPicker.gd
